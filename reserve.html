@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lotte Castle - Resevation</title>
+    <link href="img/symbol.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style_header_main.css">
+    <link rel="stylesheet" type="text/css" href="css/style_reservation.css">
+    <link rel="stylesheet" type="text/css" href="css/style_footer.css">
+  </head>
+  <body>
+    <header>
+      <div class="logoArea">
+        <a href="home.html"><img src="img/logo1.png" id="headerLogo"/></a>
+      </div>
+
+      <div class="callArea">
+        <div>
+          <img src="img/phone.png"/>
+        </div>
+        <div>
+          1599-1599
+        </div>
+      </div>
+
+      <ul class="menuArea">
+        <li><a href="#">Q&A</a></li>
+        <li><a href="reserve.html">상담예약</a></li>
+        <li><a href="home.html">소개</a></li>
+      </ul>
+    </header>
+
+    <div class="content_wrap">
+      <h1>상담예약</h1>
+      <form class="" action="index.html" method="post">
+        <ul>
+          <li class="input_box"><input type="text" name="custname" placeholder="*성함" required></li>
+          <li class="input_box"><input type="text" name="custtel" placeholder="*연락처" required></li>
+          <li class="input_box"><input type="text" name="custemail" placeholder="이메일"></li>
+          <li class="input_box"><input type="text" name="custaddr" placeholder="주소"></li>
+          <li class="input_info">*필수입력</li>
+          <li class="chk_agree"><input type="checkbox" name="ck_policy" required> 동의합니다.</li>
+          <li class="input_submit"><input type="submit" name="ressubmit" value="보내기"></li>
+        </ul>
+      </form>
+    </div>
+
+    <div class="policy_content">
+      <iframe src="policy.html">
+      </iframe>
+      <div policy_agree>
+
+      </div>
+    </div>
+
+
+
+
+    <footer>
+      <div>
+        <a href="home.html"><img src="img/logo2.png" id="footerLogo"/></a>
+      </div>
+      <div class="info">
+        담당자. 신수진 <br>
+        Addr. 서울특별시 도봉구 방학동 717-6번지 외 10 <br>
+        Contact. 02-999-1004
+      </div>
+      <div>
+        <a href="login.html"><input type="button" value="*관리자" name="manage" id="manage"/></a>
+      </div>
+    </footer>
+
+  </body>
+</html>

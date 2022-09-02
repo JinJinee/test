@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="img/symbol.png" rel="shortcut icon" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style_cust_list.css">
+    <link rel="stylesheet" type="text/css" href="css/style_header_admin.css">
+    <link rel="stylesheet" type="text/css" href="css/style_footer.css">
+    <script src="js/cust_list.js"></script>
+    <title>Lotte Castle - List page</title>
+  </head>
+  <body>
+    <header>
+      <div class="logoArea">
+        <a href="home.html"><img src="img/logo1.png" id="headerLogo"/></a>
+      </div>
+      <div class="menuArea">
+        <ul>
+          <li><a href="cust_list.html">고객목록</a></li>
+          <li><a href="#">일정</a></li>
+          <li><a href="#">업무보고</a></li>
+        </ul>
+      </div>
+
+
+      <a href="home.html">
+      <div class="rightBox outArea">
+        <div><img src="img/out.png"/></div>
+        <div><h3>나가기</h3></div>
+      </div>
+      </a>
+      <div class="rightBox infoText">*관리자 페이지입니다.</div>
+    </header>
+
+
+    <div class="main_wrap">
+      <div class="search_ex_wrap">
+        <div>
+          <div class="search_box">
+            <div><img src="img/search.png"/></div>
+            <input type="search" placeholder=" 이름검색"/>
+          </div>
+        </div>
+        <div class="down_box"><button type="button" name="ex_btn">Excel 내려받기</button></div>
+      </div>
+
+      <div>
+      <form>
+        <ul id="cust_list">
+            <li class="list_title"></li>
+            <li class="list_title">No.</li>
+            <li class="list_title">등록일</li>
+            <li class="list_title">이름</li>
+            <li class="list_title">연락처</li>
+            <li class="wordcut list_title">이메일</li>
+            <li class="wordcut list_title">주소</li>
+            <li class="wordcut list_title">세부사항</li>
+            <li class="list_title">상태</li>
+            <li class="list_title">예약날짜</li>
+
+            <li><input type="checkbox" name="chk"></li>
+            <li>1</li>
+            <li>2022/02/14</li>
+            <li><a href="detail.html">홍길동</a></li>
+            <li>010-1111-1111</li>
+            <li class="wordcut">gildong@naver.com</li>
+            <li class="wordcut">서울 강남구</li>
+            <li class="wordcut">동해번쩍 서해번쩍 바람과 함께 사라질 수 있음</li>
+            <li>
+              <select class="" name="">
+                <option value="not">선택</option>
+                <option value="visit">방문예약</option>
+                <option value="finish">방문상담</option>
+                <option value="call">전화상담</option>
+                <option value="online" selected>온라인상담</option>
+              </select>
+            </li>
+            <li><input type="datetime-local" name="date_time" id="date_time"/></li>
+
+
+            <li><input type="checkbox" name="chk"></li>
+            <li>2</li>
+            <li>2022/02/14</li>
+            <li><a href="#">김영희</a></li>
+            <li>010-2222-2222</li>
+            <li class="wordcut"></li>
+            <li class="wordcut">경기도 부천시</li>
+            <li class="wordcut"></li>
+            <li>
+              <select class="" name="">
+                <option value="not">선택</option>
+                <option value="visit">방문예약</option>
+                <option value="finish">방문상담</option>
+                <option value="call" selected>전화상담</option>
+                <option value="online">온라인상담</option>
+              </select>
+            </li>
+            <li><input type="datetime-local" name="date_time" id="date_time"/></li>
+
+
+            <li><input type="checkbox" name="chk"></li>
+            <li>3</li>
+            <li>2022/02/15</li>
+            <li><a href="#">김영철</a></li>
+            <li>010-3333-3333</li>
+            <li class="wordcut">young7@nate.com</li>
+            <li class="wordcut">서울 송파구</li>
+            <li class="wordcut">노래부르는 걸 좋아하며 말이 좀 많은 편</li>
+            <li>
+              <select class="" name="">
+                <option value="not">선택</option>
+                <option value="visit">방문예약</option>
+                <option value="finish">방문상담</option>
+                <option value="call">전화상담</option>
+                <option value="online">온라인상담</option>
+              </select>
+            </li>
+            <li><input type="datetime-local" name="date_time" id="date_time"/></li>
+
+            <li><input type="checkbox" name="chk"></li>
+            <li>4</li>
+            <li>2022/02/16</li>
+            <li><a href="#">나민수</a></li>
+            <li>010-4444-4444</li>
+            <li class="wordcut">minsoo12@naver.com</li>
+            <li class="wordcut">경기도 안산시</li>
+            <li class="wordcut"></li>
+            <li>
+              <select class="" name="">
+                <option value="not">선택</option>
+                <option value="visit">방문예약</option>
+                <option value="finish">방문상담</option>
+                <option value="call">전화상담</option>
+                <option value="online">온라인상담</option>
+              </select>
+            </li>
+            <li><input type="datetime-local" name="date_time" id="date_time"/></li>
+
+            <li><input type="checkbox" name="chk"></li>
+            <li>5</li>
+            <li>2022/02/16</li>
+            <li><a href="#">이재민</a></li>
+            <li>010-5555-5555</li>
+            <li class="wordcut">jammin2@gmail.com</li>
+            <li class="wordcut"></li>
+            <li class="wordcut"></li>
+            <li>
+              <select class="" name="">
+                <option value="not">선택</option>
+                <option value="visit">방문예약</option>
+                <option value="finish" selected>방문상담</option>
+                <option value="call">전화상담</option>
+                <option value="online">온라인상담</option>
+              </select>
+            </li>
+            <li><input type="datetime-local" name="date_time" id="date_time"/></li>
+
+            <li><input type="checkbox" name="chk"></li>
+            <li>6</li>
+            <li>2022/02/17</li>
+            <li><a href="#">이영자</a></li>
+            <li>010-6666-6666</li>
+            <li class="wordcut">0jamuckbang@naver.com</li>
+            <li class="wordcut">인천 부평구</li>
+            <li class="wordcut">먹는 걸 좋아하고 엄청난 레시피들을 갖고 있음</li>
+            <li>
+              <select class="" name="">
+                <option value="not">선택</option>
+                <option value="visit">방문예약</option>
+                <option value="finish">방문상담</option>
+                <option value="call">전화상담</option>
+                <option value="online">온라인상담</option>
+              </select>
+            </li>
+            <li><input type="datetime-local" name="date_time" id="date_time"/></li>
+
+            <li><input type="checkbox" name="chk"></li>
+            <li>7</li>
+            <li>2022/02/18</li>
+            <li><a href="#">나문희</a></li>
+            <li>010-7777-7777</li>
+            <li class="wordcut"></li>
+            <li class="wordcut">서울 강동구</li>
+            <li class="wordcut"></li>
+            <li>
+              <select class="" name="">
+                <option value="not">선택</option>
+                <option value="visit">방문예약</option>
+                <option value="finish">방문상담</option>
+                <option value="call">전화상담</option>
+                <option value="online">온라인상담</option>
+              </select>
+            </li>
+            <li><input type="datetime-local" name="date_time" id="date_time"/></li>
+
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="wordcut"></li>
+            <li class="wordcut"></li>
+            <li class="wordcut"></li>
+            <li></li>
+            <li></li>
+
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="wordcut"></li>
+            <li class="wordcut"></li>
+            <li class="wordcut"></li>
+            <li></li>
+            <li></li>
+
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="wordcut"></li>
+            <li class="wordcut"></li>
+            <li class="wordcut"></li>
+            <li></li>
+            <li></li>
+
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="wordcut"></li>
+            <li class="wordcut"></li>
+            <li class="wordcut"></li>
+            <li></li>
+            <li></li>
+
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="wordcut"></li>
+            <li class="wordcut"></li>
+            <li class="wordcut"></li>
+            <li></li>
+            <li></li>
+
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="wordcut"></li>
+            <li class="wordcut"></li>
+            <li class="wordcut"></li>
+            <li></li>
+            <li></li>
+
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="wordcut"></li>
+            <li class="wordcut"></li>
+            <li class="wordcut"></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="allChkbox"><input type="checkbox" name="chk" id="allChk"><span style="font-size: 14px"> 전체선택</spna></div>
+      </form>
+      </div>
+
+
+      <ul class="paging">
+        <li class="prev"><a href="#"><</a></li>
+        <li class="num"><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li class=""><a href="#">></a></li>
+      </ul>
+
+
+
+
+    </div>
+
+
+
+
+
+    <footer>
+      <div>
+        <a href="home.html"><img src="img/logo2.png" id="footerLogo"/></a>
+      </div>
+      <div class="info">
+        담당자. 신수진 <br>
+        Addr. 서울특별시 강남구 삼성동 11 롯데캐슬프레미어 아파트 <br>
+        Contact. 02-999-1004
+      </div>
+      <div>
+        <a href="login.html"><input type="button" value="*관리자" name="manage" id="manage"/></a>
+      </div>
+    </footer>
+  </body>
+</html>

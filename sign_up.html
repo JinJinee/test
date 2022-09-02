@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="img/symbol.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style_header_manager.css">
+    <link rel="stylesheet" type="text/css" href="css/style_footer.css">
+    <link rel="stylesheet" type="text/css" href="css/style_sign_up.css"/>
+    <script src="js/sign_up.js"></script>
+    <title>Lotte Castle - Sign up</title>
+
+  </head>
+  <body>
+    <header>
+      <div class="logoArea">
+        <a href="home.html"><img src="img/logo1.png" id="headerLogo"/></a>
+      </div>
+      <a href="home.html">
+      <div class="rightBox outArea">
+        <div><img src="img/out.png"/></div>
+        <div><h3>나가기</h3></div>
+      </div>
+      </a>
+      <div class="rightBox infoText">*관리자 페이지입니다.</div>
+    </header>
+
+    <div class="sign_up_wrap">
+      <h1>회원가입</h1>
+      <div class="join_content">
+
+      <form action="index.html" method="post" onsubmit="return formCheck()">
+
+        <div class="row_group">
+          <h3>아이디</h3>
+          <div class="input_box">
+            <input type="text" name="userid" id="userid">
+          </div>
+        </div>
+
+        <div class="row_group">
+          <h3>비밀번호</h3>
+          <div class="input_box">
+            <input type="password" name="userpwd" id="userpwd">
+          </div>
+        </div>
+
+        <div class="row_group">
+          <h3>비밀번호 재확인</h3>
+          <div class="input_box">
+            <input type="password" name="secUserpwd" id="secUserpwd">
+          </div>
+        </div>
+
+        <div class="row_group">
+            <h3>이메일</h3>
+            <div class="email_wrap">
+              <div class="input_box_email">
+                <input type="text" name="email" id="email">
+              </div>
+              <div class="at"><h4>@</h4></div>
+              <div class="domain_select">
+                <select name="domain">
+                  <option value="email_option" selected>선택</option>
+                  <option value="self">직접입력</option>
+                  <option value="naver">naver.com</option>
+                  <option value="google">gmail.com</option>
+                  <option value="nate">nate.com</option>
+                  <option value="daum">daum.net</option>
+                </select>
+              </div>
+            </div>
+        </div>
+
+        <div class="row_group">
+          <h3>이름</h3>
+          <div class="input_box">
+            <input type="text" name="username" id="username">
+          </div>
+        </div>
+
+        <div class="row_group">
+          <h3>생년월일</h3>
+          <div class="birth_wrap">
+            <div class="input_box_birth">
+              <input type="text" name="year" placeholder="년(4자)" maxlength="4">
+            </div>
+            <div class="input_box_birth">
+              <select class="birth_month" name="birth_month">
+                <option value="wol">월</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+            </div>
+            <div class="input_box_birth">
+              <select class="birth_day" name="birth_day">
+                <option value="il">일</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row_group">
+          <h3>성별</h3>
+          <div class="input_box">
+              <select>
+                <option value="option">선택</option>
+                <option value="female">여</option>
+                <option value="male">남</option>
+              </select>
+          </div>
+
+        </div>
+
+
+        <div class="row_group">
+          <h3>휴대전화</h3>
+          <div class="tel_wrap">
+            <div class="input_tel">
+              <div class="input_box">
+                <input type="text" name="tel" id="tel" placeholder="전화번호 입력">
+              </div>
+            </div>
+            <div class="tel_btn">
+              <input type="button" name="btn_tel" value="인증번호 받기">
+            </div>
+            <input id="secure" type="text" name="secure" value=" 인증번호 입력" disabled>
+          </div>
+        </div>
+
+        <div class="submit_btn">
+          <input type="submit" name="signUp" value="가입하기">
+        </div>
+      </form>
+
+
+
+
+      </div>
+    </div>
+
+    <footer>
+      <div>
+        <a href="home.html"><img src="img/logo2.png" id="footerLogo"/></a>
+      </div>
+      <div class="info">
+        담당자. 신수진 <br>
+        Addr. 서울특별시 도봉구 방학동 717-6번지 외 10 <br>
+        Contact. 02-999-1004
+      </div>
+      <div>
+        <a href="login.html"><input type="button" value="*관리자" name="manage" id="manage"/></a>
+      </div>
+    </footer>
+  </body>
+</html>

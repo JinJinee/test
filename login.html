@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="img/symbol.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style_login.css">
+    <link rel="stylesheet" type="text/css" href="css/style_header_manager.css">
+    <link rel="stylesheet" type="text/css" href="css/style_footer.css">
+    <script src="js/login.js"></script>
+    <title>Lotte Castle - Admin Login</title>
+  </head>
+  <body>
+    <header>
+      <div class="logoArea">
+        <a href="home.html"><img src="img/logo1.png" id="headerLogo"/></a>
+      </div>
+      <a href="home.html">
+      <div class="rightBox outArea">
+        <div><img src="img/out.png"/></div>
+        <div><h3>나가기</h3></div>
+      </div>
+      </a>
+      <div class="rightBox infoText">*관리자 페이지입니다.</div>
+    </header>
+
+    <div class="login">
+      <img src="img/login-man.png"/>
+      <h2>관리자</h2>
+      <form action="index.html" method="post" onsubmit="return logFormCheck()">
+        <ul>
+          <li>
+            <div class="id_pw_warp">
+              <div class="input_row">
+                <div class="icon_cell">
+                  <img src="img/id-icon.png">
+                </div>
+                <div><input type="text" id="id" name="id" placeholder=" 아이디" title="아이디" class="input_text" maxlength="20"></div>
+              </div>
+              <div class="input_row">
+                <div class="icon_cell">
+                  <img src="img/key.png">
+                </div>
+                <div><input type="password" id="pwd" name="pwd" placeholder=" 비밀번호" title="비밀번호" class="input_text" maxlength="16"></div>
+              </div>
+            </div>
+            <div class="login_keep_warp">
+              <input type="checkbox" name="ckbox">
+              <label for="keep" class="keep_text">
+                자동로그인
+              </label>
+            </div>
+            <div class="btn_login_warp">
+              <input type="submit" value="로그인">
+            </div>
+
+            <div class="find_signin_warp">
+              <div class="find_id_pwd_warp">
+                <a href="#">아이디</a> / <a href="#">비밀번호</a> 찾기
+              </div>
+              <div class="sign_in">
+                <a href="sign_up.html">회원가입</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </form>
+    </div>
+
+    <footer>
+      <div>
+        <a href="home.html"><img src="img/logo2.png" id="footerLogo"/></a>
+      </div>
+      <div class="info">
+        담당자. 신수진 <br>
+        Addr. 서울특별시 강남구 삼성동 11 롯데캐슬프레미어 아파트 <br>
+        Contact. 02-999-1004
+      </div>
+      <div>
+        <a href="cust_list.html"><input type="button" value="*관리자" name="manage" id="manage"/></a>
+      </div>
+    </footer>
+  </body>
+</html>
