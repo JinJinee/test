@@ -1,0 +1,83 @@
+* {
+  font-family: 'Jua', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  color: rgb(51, 51, 51);
+}
+
+body{
+  background: #f7f7f7;
+}
+
+/* header */
+header{
+  background: rgb(204, 185, 150);
+  height: 50px;
+}
+
+header > div{
+  float: left;
+}
+
+
+.menuArea{
+  margin-top: 20px;
+  margin-left: 300px;
+}
+
+.menuArea  li{
+  float: left;
+  color: rgb(77, 70, 55);
+  font-size: 16px;
+  text-align: center;
+  margin-right: 40px;
+}
+
+.menuArea > ul > li:hover{
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.logoArea{
+  float: left;
+  height: 50px;
+  width: 300px;
+}
+
+#headerLogo{
+  height: 50px;
+  margin-left: 10px;
+}
+
+.infoText{
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.rightBox{
+  float: right;
+}
+
+.outArea{
+  margin: 10px;
+}
+
+.outArea > div >img{
+  height: 25px;
+  margin-right: 5px;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.outArea > div{
+  float: left;
+}
+
+.outArea > div > h3{
+  font-size: 16px;
+  margin-top: 3px;
+  margin-right: 15px;
+}

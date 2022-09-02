@@ -1,0 +1,74 @@
+* {
+  font-family: 'Jua', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  color: rgb(51, 51, 51);
+}
+
+body{
+  background: #f7f7f7;
+}
+
+/* header */
+header{
+  background: rgb(204, 185, 150);
+  height: 50px;
+}
+
+.logoArea{
+  float: left;
+  height: 50px;
+  width: 300px;
+}
+
+.logoArea img{
+  height: 50px;
+  margin-left: 10px;
+}
+
+.menuArea li{
+  font-size: 16px;
+  float: right;
+  margin-top: 20px;
+  margin-left: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(77, 70, 55);
+}
+
+.menuArea a{
+  color: rgb(77, 70, 55);
+  text-decoration: none;
+
+}
+
+.menuArea a:hover{
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.callArea{
+  margin-left: 60px;
+  width: 190px;
+  height: 50px;
+  float: right;
+}
+
+.callArea > div{
+  float: left;
+}
+
+.callArea > div > img{
+  height: 35px;
+  width: auto;
+  margin-top: 7px;
+}
+
+.callArea > div:last-child {
+  font-size: 30px;
+  margin-left: 5px;
+  font-weight: bold;
+}

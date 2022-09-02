@@ -1,0 +1,169 @@
+.sign_up_wrap{
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.sign_up_wrap > h1{
+  color: rgb(77, 70, 55);
+}
+
+.join_content{
+  margin-top: 30px;
+}
+
+.row_group{
+  width: 100%;
+  height: 75px;
+}
+
+.row_group > h3, .email_group > h3{
+  font-size: 15px;
+  text-align: left;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.input_box{
+  background: #fff;
+  width: 100%;
+  height: 50px;
+  border: 1.5px solid rgb(204, 204, 204);
+  border-radius: 5px;
+}
+
+.input_box > input, .input_box_email > input{
+  width: 99%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* 이메일 */
+.input_box_email{
+  background: #fff;
+  width: 40%;
+  height: 50px;
+  border: 1.5px solid rgb(204, 204, 204);
+  border-radius: 5px;
+}
+
+.email_wrap > div{
+  float: left;
+}
+
+.at{
+  width: 10%;
+  margin-top: 10px;
+}
+
+.domain_select{
+  width: 48.5%;
+  height: 50px;
+  border: 1.5px solid rgb(204, 204, 204);
+  background: #fff;
+  border-radius: 5px;
+}
+
+.domain_select > select{
+  width: 90%;
+  border: none;
+  height: 30px;
+  margin-top: 10px;
+}
+
+/* 생년월일 */
+.birth_wrap{
+  width: 100%;
+  height: 50px;
+}
+
+.birth_wrap > div{
+  float: left;
+}
+
+.input_box_birth{
+  width: 31%;
+  height: 50px;
+  background: #fff;
+  border: 1.5px solid rgb(204, 204, 204);
+  border-radius: 5px;
+}
+
+.input_box_birth > input, .input_box_birth > select{
+  width: 90%;
+  border: none;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.input_box_birth > input{
+  color: rgba(94, 94, 94, 0.64);
+}
+
+.birth_wrap > div:not(:last-child){
+  margin-right: 9px;
+}
+
+/* 성별 */
+.input_box > select{
+  width: 98%;
+  height: 30px;
+  border: none;
+  margin-top: 10px;
+}
+
+/* 휴대전화 */
+
+.tel_wrap{
+  width: 100%;
+}
+
+.tel_wrap > div{
+  float: left;
+}
+
+.input_tel{
+  width: 70%;
+  margin-right: 13px;
+}
+
+.input_box > input{
+  color: rgba(94, 94, 94, 0.64);
+  width: 95%;
+}
+
+.tel_btn{
+  width: 26%
+}
+
+.tel_btn > input{
+  background: rgb(77, 70, 55);
+  width: 100%;
+  height: 50px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+#secure{
+  width:100%;
+  height: 50px;
+  border-radius: 5px;
+  color: #999;
+  margin-top: 10px;
+  border: 1.5px solid rgb(204, 204, 204);
+}
+
+/* 가입하기 */
+.submit_btn > input{
+  width: 100%;
+  height: 50px;
+  margin-top: 90px;
+  margin-bottom: 40px;
+  color: #fff;
+  background: rgb(77, 70, 55);
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}

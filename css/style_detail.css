@@ -1,0 +1,104 @@
+.detail_wrap{
+  width: 900px;
+  margin: 70px auto;
+}
+
+.detail_title{
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  color: rgb(77, 70, 55);
+  padding-left: 10px;
+}
+
+.detail_title img{
+  width: 50px;
+  height: 50px;
+}
+
+.detail_title strong{
+  position:relative;
+  top: -10px;
+}
+
+.detail_view{
+  border-top: 2px solid #999;
+  border-bottom: 2px solid #999;
+  margin-top: 30px;
+  width: 100%;
+  height: 400px;
+  padding: 15px 10px;
+}
+
+.left_box,
+.right_box{
+  width: 420px;
+  display: inline-block;
+}
+
+.detail_view_box{
+  width: 400px;
+  height: 55px;
+  margin: 25px;
+}
+
+.detail_view_box strong{
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+  color: rgb(77, 70, 55);
+  font-size: 18px;
+}
+
+.detail_view_box input,
+.detail_view_box select{
+  height: 50px;
+  width: 290px;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+.right_box > .detail_view_box:first-child{
+  height: 165px;
+  margin: 20px;
+}
+
+.info strong{
+  text-align: left;
+  margin-bottom: 5px;
+
+}
+
+.info input{
+  width: 380px;
+  height: 130px;
+}
+
+.detail_btn{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+.detail_btn a{
+  border: none;
+  text-align: center;
+  display: inline-block;
+  width: 80px;
+  margin-left: 20px;
+  height: 30px;
+  border-radius: 5px;
+  vertical-align: middle;
+  padding-top: 5px;
+  background: rgb(224, 224, 224);
+}
+
+.detail_btn a:first-child{
+  margin-left: 0px;
+}
+
+.detail_btn a.on{
+  background: rgb(94, 94, 94);
+  color: #fff;
+}

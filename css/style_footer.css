@@ -1,0 +1,31 @@
+/* footer */
+footer{
+  height: 82px;
+  width: 100%;
+  background: rgb(77, 70, 55);
+  padding: 10px 0px;
+  display: flex;
+}
+
+#footerLogo{
+  height: 65px;
+}
+
+.info{
+  color: #fff;
+  margin-left: 25px;
+  width: 85%;
+  font-size: 13px;
+}
+
+footer input{
+  float: right;
+  margin-top: 37px;
+  font-size: 12px;
+  width: 60px;
+  height: 27px;
+  margin-right: 10px;
+  background: rgb(180, 170, 153);
+  border: none;
+  border-radius: 5px;
+}

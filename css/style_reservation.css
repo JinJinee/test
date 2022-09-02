@@ -1,0 +1,67 @@
+.content_wrap{
+  width: 300px;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.content_wrap > h1{
+  margin-bottom: 30px;
+  color: rgb(77, 70, 55);
+}
+
+.input_box{
+  width: 100%;
+  height: 50px;
+  border: 1.5px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.input_box > input{
+  border: none;
+  width: 95%;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.input_info{
+  color: rgba(77, 70, 55, 0.67);
+  font-size: 13px;
+  text-align: right;
+  margin-top: -15px;
+}
+
+.input_submit > input{
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(77, 70, 55);
+  color: #fff;
+  font-size: 16px;
+  margin-top: 400px;
+}
+
+.chk_agree{
+  position: absolute;
+  top: 830px;
+  width: 100px;
+  margin: 0px auto;
+  margin-left: -150px;
+}
+
+.policy_content{
+  width: 600px;
+  margin: 0px auto;
+  position: relative;
+  top: -480px;
+  margin-bottom: -250px;
+}
+
+iframe{
+  border: 2px solid rgba(77, 70, 55, 0.63);
+  width: 100%;
+  height: 300px;
+  scrolling: yes;
+}
